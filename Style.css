@@ -1,0 +1,71 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,li {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.top-header {
+    width: 90%;
+    height: 225px;
+    background-image: url(anh-bia-facebook-5.jpg);
+    background-size: contain;
+    /* background-position: unset; */
+    background-attachment: scroll;
+    border-radius: 10px 5px 5px 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.top-left {
+    float: left;
+    width: 50%;
+}
+
+.top-left ul li {
+    display: inline-block;
+    padding: 7px;
+    text-transform: uppercase;
+}
+
+.top-left ul li a {
+    color: rgb(41, 46, 255);
+}
+
+.top-right {
+    float: right;
+}
+
+.top-right span {
+    padding: 7px;
+}
+
+.top-right span a {
+    color: beige;
+}
+
+.content-center{
+    position: relative;
+    padding: 10px 50px;
+    z-index: 2;
+}
+
+.content-center h3 {
+    color: blue;
+}
